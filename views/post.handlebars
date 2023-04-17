@@ -1,0 +1,31 @@
+<div class="box">
+  <h1 class="is-size-2">{{post_title}}</h1>
+  <p class="box">{{post_info}}</p>
+  <p class="is-size-6">created by {{user.name}} on {{format_date date_created}}</p>
+
+</div>
+
+<form class="box new-comment-form">
+  {{#if logged_in}}
+      <div class="form-group">
+        <label for="comment">Add Comment:</label>
+        <textarea class="input" id="comment" name="comment"></textarea>
+        <input type="hidden" id="postID" name="postID" value={{id}}>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary button is-light">submit</button>
+      </div>
+  {{ else }}
+    <p class="mt-2 mb-2"><a href="/login">login to add a comment</a></p>
+  {{/if}}
+
+</form>
+
+  {{#each comments as |comment| }}
+  <div class="box">
+  <p>{{comment.comment}}</p>
+  <p>{{comment.name}}</p>  
+  </div>
+  {{/each}} 
+
+<script src="../js/comment.js"></script>

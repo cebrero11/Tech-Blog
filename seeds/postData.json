@@ -1,0 +1,22 @@
+[
+  {
+    "post_title": "Where should I eat tonight?",
+    "post_info": "I'm going out!", 
+    "user_id": 1
+  },
+  {
+    "post_title": "Which dog should I get?",
+    "post_info": "I'm thinking the big one!",
+    "user_id": 2
+  },
+  {
+    "post_title": "What movie should I watch?",
+    "post_info": "Stuck between the lion king or something new",
+    "user_id": 3
+  },
+  {
+    "post_title": "What should I do on vacation?",
+    "post_info": "I'm going on vacation.", 
+    "user_id": 4
+  }
+]

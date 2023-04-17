@@ -1,0 +1,47 @@
+[
+  {
+    "comment": "home" ,
+    "post_id": 1,
+    "user_id": 1
+  },
+  {
+    "comment": "fast food" ,
+    "post_id": 1,
+    "user_id": 2 
+  },
+  {
+    "comment": "friends" ,
+    "post_id": 1,
+    "user_id": 4
+  },
+  {
+    "comment": "fancy restaurant" ,
+    "post_id": 1,
+    "user_id": 3
+  },
+  {
+    "comment": "delivery" ,
+    "post_id": 2,
+    "user_id": 1
+  },
+  {
+    "comment": "lab" ,
+    "post_id": 4,
+    "user_id": 1
+  },
+  {
+    "comment": "great dane" ,
+    "post_id": 2,
+    "user_id": 4
+  },
+  {
+    "comment": "pom" ,
+    "post_id": 3,
+    "user_id": 2
+  },
+  {
+    "comment": "golden" ,
+    "post_id": 3,
+    "user_id": 4
+  }
+]

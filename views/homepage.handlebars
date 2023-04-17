@@ -1,0 +1,9 @@
+{{!-- Structure for 'ideas' rendered on the homepage. --}}
+{{#each posts as |post| }}
+<div class="column">
+      <div class="column is-half">
+        <div class="box">
+  <a href="/posts/{{post.id}}">{{post.post_title}}</a>
+  <p>created by {{post.user.name}} on {{format_date post.date_created}}</p>
+</div></div></div>
+{{/each}}
